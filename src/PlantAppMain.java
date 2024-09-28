@@ -11,7 +11,7 @@ public class PlantAppMain {
     private static void createAndShowGUI() {
         PlantManager plantManager = PlantManager.getInstance();
 
-        JFrame frame = new JFrame("Plantus Mapsamusse");
+        JFrame frame = new JFrame("Plantus Mapsamusse V1.0");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 700);
         frame.setLocationRelativeTo(null); // Center the window
@@ -23,7 +23,7 @@ public class PlantAppMain {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
 
         // Header
-        JLabel titleLabel = new JLabel("Plant Bros v1.0");
+        JLabel titleLabel = new JLabel("Plantus Mapsamusse V1.0");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 24));
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         titleLabel.setForeground(new Color(34, 139, 34)); // Green color
